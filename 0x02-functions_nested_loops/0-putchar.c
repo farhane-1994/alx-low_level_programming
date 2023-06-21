@@ -1,21 +1,6 @@
-#include "putchar.h"
+#include <stdio.h>
 
-/**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
-int main(void)
-{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('e');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+int main() {
+    printf("_putchar\n");
+    return 0;
 }
