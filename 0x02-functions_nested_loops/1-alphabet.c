@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
+ * print_alphabet - make the alphabet.
+ * Return: void.
  */
 void print_alphabet(void)
 {
@@ -9,7 +9,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(c);
+	_putchar(c);
 	}
 	_putchar('\n');
 }
