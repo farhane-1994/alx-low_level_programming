@@ -6,14 +6,11 @@
  * Description -  It checks for uppercase characters
  * Return: 1 if c uppercase else return 0
  */
-int _isupper(int c)
+int _isupper(int X)
 {
-        if (c >= 'A' && c <= 'Z')
+        if (X >= 65 && X <= 90)
         {
                 return (1);
         }
-        else
-        {
                 return (0);
-        }
 }
