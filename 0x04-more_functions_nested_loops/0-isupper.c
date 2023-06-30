@@ -11,7 +11,7 @@ int _isupper(int X)
 
         if (X >= 65 && X <= 90)
         {
-                return (1);
+        return (1);
         }
-                return (0);
-}
+        return (0);
+ }
